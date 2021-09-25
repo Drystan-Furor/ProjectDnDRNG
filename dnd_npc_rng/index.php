@@ -28,7 +28,7 @@ require 'npc.gen.php'; // collecting all vars
 <!-- header file -->
 <?php
 $title = "DnD NPC RNG";
-require_once('includes/header.php');
+require_once 'includes/header.php';
 ?>
 
 <!-------------------------------------------navigationn file ------------------------------->
@@ -64,12 +64,12 @@ require_once('includes/header.php');
 <h2 class="rngh2">RNG Tool to create a detailed npc as fast as possible.</h2>
 <div class="greeting">
     <h3><?php echo greet();
-        if ($_COOKIE['visit'] <= 0) {
-            echo "Welcome to the NPC RNG Tool, ";
-        } elseif ($_COOKIE['visit'] >= 5) {
-            echo "Welcome back to the NPC RNG Tool, ";
-        }
-        ?></h3>
+    if ($_COOKIE['visit'] <= 0) {
+        echo "Welcome to the NPC RNG Tool, ";
+    } elseif ($_COOKIE['visit'] >= 5) {
+        echo "Welcome back to the NPC RNG Tool, ";
+    }
+    ?></h3>
 </div>
 
 <p class="centeredpar">
@@ -183,7 +183,7 @@ require_once('includes/header.php');
 
 
 <!-- footer file -->
-<?php require_once('includes/footer.php'); ?>
+<?php require_once 'includes/footer.php'; ?>
 
 
 
