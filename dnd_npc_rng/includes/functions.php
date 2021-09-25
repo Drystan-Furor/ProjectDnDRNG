@@ -3,9 +3,9 @@
 functions of DND NPC RNG 
  */
 error_reporting(E_ALL);
+setcookie("visit", $cookie_visitor, time() + (86400 * 30), "/"); // 86400 = 1 day
 $cookie_visitor = $_COOKIE['visit'];
 if (!isset($_COOKIE['visit'])) {
-    $cookie_visitor = $_COOKIE['visit'];
     setcookie('visit', $cookie_visitor, time() + (86400 * 30), "/"); // 86400 = 1 day
 } else {
     $cookie_visitor = ++$_COOKIE['visit'];

@@ -1,0 +1,7 @@
+[07-Sep-2021 19:24:41 UTC] PHP Warning:  Undefined array key "visit" in E:\Laravel\DND\ProjectDnDRNG\dnd_npc_rng\includes\functions.php on line 6
+[07-Sep-2021 19:24:41 UTC] PHP Warning:  Undefined array key "visit" in E:\Laravel\DND\ProjectDnDRNG\dnd_npc_rng\includes\functions.php on line 8
+[07-Sep-2021 19:24:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_connect() in E:\Laravel\DND\ProjectDnDRNG\dnd_npc_rng\includes\db_connect.php:7
+Stack trace:
+#0 E:\Laravel\DND\ProjectDnDRNG\dnd_npc_rng\index.php(3): require_once()
+#1 {main}
+  thrown in E:\Laravel\DND\ProjectDnDRNG\dnd_npc_rng\includes\db_connect.php on line 7
