@@ -1,6 +1,6 @@
 <?php
 require_once 'includes/functions.php';  // PHP functions file
-require_once 'includes/db_connect.php'; // Database connection file
+//require_once 'includes/db_connect.php'; // Database connection file
 /**
 BUILD RESOURCE ARRAY'S
  */

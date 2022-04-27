@@ -1,6 +1,4 @@
 <?php
-require_once 'includes/db_connect.php'; // Database connection file
-require_once 'includes/functions.php';  // PHP functions file
 
 $navigationMenuList = [
     "index.php" => '<span class="redtext">DnD </span> RNG',
